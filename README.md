@@ -1,4 +1,4 @@
-# praktikum5
+# praktikum 6
 ### **Fungsi `hitung_nilai_akhir`**
 
 ```python
