@@ -208,4 +208,50 @@ elif pilihan == "k":  # Keluar
 ```
 
 Penjelasan:
-- Program mengakhiri loop dan keluar dari aplikasi, menampilkan pesan terima kasih.
+elif pilihan == "k":
+
+elif adalah singkatan dari "else if", yang digunakan untuk mengecek kondisi lain setelah kondisi pertama (if) tidak terpenuhi. Dalam hal ini, elif memeriksa apakah nilai dari variabel pilihan sama dengan "k".
+Artinya, jika pengguna memasukkan nilai k sebagai pilihan mereka (misalnya melalui input atau perintah sebelumnya dalam program), maka blok kode berikutnya akan dieksekusi.
+print("Terima kasih telah menggunakan program ini!")
+
+Setelah kondisi pilihan == "k" terpenuhi, perintah print() akan menampilkan pesan ke layar yang mengatakan, "Terima kasih telah menggunakan program ini!".
+Ini biasanya digunakan untuk memberi tahu pengguna bahwa mereka telah selesai menggunakan program dan untuk mengucapkan terima kasih.
+break
+
+Perintah break digunakan untuk menghentikan atau keluar dari sebuah loop (while atau for). Dalam konteks kode ini, perintah break akan menghentikan loop yang sedang berjalan ketika pengguna memilih untuk keluar (dengan memasukkan k).
+Ini berarti jika pengguna memilih untuk keluar (dengan mengetik k), program akan menampilkan pesan perpisahan dan kemudian berhenti dari loop (misalnya, sebuah loop while yang menunggu input terus-menerus).
+
+
+## Output/ Hasil
+![Screenshot 2024-11-22 193153](https://github.com/user-attachments/assets/f61df8b3-45fd-48e9-b215-be1466dd027f)
+
+Langkah-langkah:
+Hitung Nilai Akhir: Nilai akhir mahasiswa dihitung dengan rumus:
+
+## Nilai Akhir
+
+Nilai Akhir=(0.3×Tugas)+(0.35×UTS)+(0.35×UAS)
+
+Nilai Akhir:
+Nilai Akhir=(0.3×85)+(0.35×80)+(0.35×90)=85.5
+
+
+## Input yang diberikan:
+
+NIM: 321410411
+
+Nama: Yudha
+
+Nilai Tugas: 85
+
+Nilai UTS: 80
+
+Nilai UAS: 90
+
+
+
+## FLowchart
+
+
+![Screenshot 2024-11-23 170519](https://github.com/user-attachments/assets/2964bbda-68b7-4f8a-95ce-7a9828b462f0)
+
